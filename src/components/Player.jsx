@@ -8,7 +8,7 @@ export default function Player() {
   
   function handleClick() {
     setEnteredPlayerName(playerName.current.value);
-    playerName.current.value = ''; // To clear the input after submitting
+    playerName.current.value = '';
   }
 
   return (
